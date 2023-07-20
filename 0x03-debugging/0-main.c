@@ -1,18 +1,16 @@
 #include "main.h"
+
 /**
- * _isupper - checks uppercase
- * @c: parameter
- * Return: 0 if successful
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
+
+int main(void)
 {
-int _isupper(int c)
-{
-if (c >= 65 && c < 91)
-{
-return (1);
-}
-else
-{
+int i;
+
+i = 0;
+positive_or_negative(i);
+
 return (0);
-}
 }
