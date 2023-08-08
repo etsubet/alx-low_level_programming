@@ -1,11 +1,12 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * _isupper - checks for uppercase character
- * @c: character to check
- *
- * Return: 1 if c is uppercase, 0 otherwise
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: 0
  */
-int _isupper(int c)
+int main(attribute((unused)) int argc, char *argv[])
 {
-return (c >= 'A' && c <= 'Z');
+printf("%s\n", argv[0]);
+return (0);
 }
